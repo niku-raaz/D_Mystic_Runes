@@ -59,27 +59,7 @@ long long binpow(long long a, long long b, long long m) {
   return res;
 }  
    
-   
-// think of binary search,prefix sum , DP, graph duplication, think in rreverse,    
- // add +M int mod questions  
-// think properly   
-   
-   
-// in DP check its subarray / subsequence / subset  
-  // then check if its counting problem / optimising problem 
- // then decides the states of DP and transitions and write recurrsion  
-   
-   
-   
- // DP Forms  
- //  Form 1: level wise take/not take  
- //  Form 2: Answer ending here (0...level)  
- //  Form 3: Multisequence eg. LIS, LCS  
- //  Form 4: DP(L,R)=> DP(L,P)*DP(P,R), break in between  
- // Form 5: Game DP  (may have some pattern)  
-   
-   
-   
+
 void solve(){
     take(n);
     take(m);
